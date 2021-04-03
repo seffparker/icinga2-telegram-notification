@@ -20,7 +20,7 @@ This is an modified version of https://github.com/seffparker/icinga2-rich-slack-
 1. Copy the two `telegram-notification-*` confs to `/etc/icinga2/conf.d/` directory and configure the existing host or service configuration like the provided one in `sample.conf`
 1. Modify the `vars.telegram_notifications_icinga2_base_url` in `telegram-notifications-configuration.conf` with your IcingaWeb2 Base URL. This is to jump to Alert Dashboard right from Teams channel.
 1. Modify the `vars.telegram_notifications_icinga2_base_url` in `telegram-notifications-configuration.conf` with the AUTH_TOKEN of Telegram Bot
-1. Get the `chat_id` of the bot instance and add in to the `object User` section of required notificaiton user(s). [Read more here](https://sean-bradley.medium.com/get-telegram-chat-id-80b575520659)
+1. Get the `chat_id` of the bot instance and add in to the `object User` section of required notification user(s). [Read more here](https://sean-bradley.medium.com/get-telegram-chat-id-80b575520659)
 1. Validate the Icinga2 configuration and restart the service.
 
 # Advanced Configuration
